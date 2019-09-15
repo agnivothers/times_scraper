@@ -11,4 +11,7 @@ Adding files to .gitignore:
 echo "geckodriver.log" >> .gitignore
 
 Putting geckodriver in PATH:
-export PATH="$PATH:/home/agniv/Desktop/data-science/times_scraper/webdriver_installations/geckodriver-v0.25.0-linux64"
+cd ~/.local/bin
+cp ~/Desktop/data-science/times_scraper/webdriver_installations/geckodriver-v0.25.0-linux64/geckodriver .
+cp ~/Desktop/data-science/times_scraper/webdriver_installations/chromedriver_linux64/chromedriver .
+echo 'PATH=~/.local/bin:$PATH' >> ~/.bashrc
