@@ -1,0 +1,14 @@
+Python selenium webdriver files download link for different browsers.
+https://pypi.org/project/selenium/
+
+Firefox geckodriver download link:
+https://github.com/mozilla/geckodriver/releases
+
+Chrome webdriver download link:
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+Adding files to .gitignore:
+echo "geckodriver.log" >> .gitignore
+
+Putting geckodriver in PATH:
+export PATH="$PATH:/home/agniv/Desktop/data-science/times_scraper/webdriver_installations/geckodriver-v0.25.0-linux64"
