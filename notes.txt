@@ -16,5 +16,5 @@ cp ~/Desktop/data-science/times_scraper/webdriver_installations/geckodriver-v0.2
 cp ~/Desktop/data-science/times_scraper/webdriver_installations/chromedriver_linux64/chromedriver .
 echo 'PATH=~/.local/bin:$PATH' >> ~/.bashrc
 
-setting PYTHONPATH
+setting PYTHONPATH:
 export PYTHONPATH=`pwd`
