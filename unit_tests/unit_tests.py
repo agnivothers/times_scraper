@@ -14,3 +14,6 @@ class TimesHomePageTest(unittest.TestCase):
         browser2 = ts.get_times_archive_home_page(browser)
         print(type(browser2))
         self.assertIn('', browser2.title)
+
+if __name__ == '__main__': 
+    unittest.main() 

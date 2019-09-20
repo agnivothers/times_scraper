@@ -1,2 +1,3 @@
 geckodriver.log
 .idea/
+code/__pycache__
