@@ -1,3 +1,4 @@
 geckodriver.log
 .idea/
 code/__pycache__
+code/login_credentials.py
