@@ -16,5 +16,12 @@ cp ~/Desktop/data-science/times_scraper/webdriver_installations/geckodriver-v0.2
 cp ~/Desktop/data-science/times_scraper/webdriver_installations/chromedriver_linux64/chromedriver .
 echo 'PATH=~/.local/bin:$PATH' >> ~/.bashrc
 
-setting PYTHONPATH:
+Make a folder as module so that files can be imported:
+add a file __init__.py. This will make the folder "importable". Now objects, modules can be imported from it.
+Also, need to set the PYTHONPATH variable.
+
+Setting PYTHONPATH:
 export PYTHONPATH=`pwd`
+
+github url to clone repo:
+https://github.com/agnivothers/times_scraper.git
