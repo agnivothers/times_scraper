@@ -20,5 +20,13 @@ class TimesHomePageTest(unittest.TestCase):
         self.assertEqual(username,"Username","The username did not match")
         self.assertEqual(password, "Password", "The password did not match")
     """
+    def test_navigate_to_login_page(self):
+        browser = self.ts.get_browser()
+
+        #a = browser.find_element_by_partial_link_text("Log")
+        a = browser.find_elements_by_class_name("btn.btn-primary")
+        #a = browser.find_elements_by_class_name("col-md-12")
+        #a = browser.find_element_by_link_text("Log in here")
+        print(a);
 if __name__ == '__main__': 
     unittest.main() 

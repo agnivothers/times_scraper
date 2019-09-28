@@ -12,6 +12,7 @@ class TimesScraper:
         return(browser)
     def get_times_archive_home_page(self,browser):
         browser.get("https://epaper.timesgroup.com/TOI/TimesOfIndia/indialogin.aspx")
+        #print(login_credentials.username,login_credentials.password)
         return(browser)
     """
     def get_login_credentials(self):
