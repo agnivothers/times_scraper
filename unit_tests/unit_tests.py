@@ -22,11 +22,14 @@ class TimesHomePageTest(unittest.TestCase):
     """
     def test_navigate_to_login_page(self):
         browser = self.ts.get_browser()
-
+        browser = self.ts.get_times_archive_home_page(browser)
         #a = browser.find_element_by_partial_link_text("Log")
         a = browser.find_elements_by_class_name("btn.btn-primary")
+        for element in a:
+            element.click()
         #a = browser.find_elements_by_class_name("col-md-12")
         #a = browser.find_element_by_link_text("Log in here")
+        #a = browser.find_elements_by_xpath("//div")
         print(a);
 if __name__ == '__main__': 
     unittest.main() 
