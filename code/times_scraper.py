@@ -9,6 +9,8 @@ class TimesScraper:
 
     def get_browser(self):
         browser = webdriver.Chrome()
+        browser.set_window_size(1024, 600)
+        browser.maximize_window()
         return(browser)
     def get_times_archive_home_page(self,browser):
         browser.get("https://epaper.timesgroup.com/TOI/TimesOfIndia/indialogin.aspx")

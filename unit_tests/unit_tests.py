@@ -30,6 +30,7 @@ class TimesHomePageTest(unittest.TestCase):
         #a = browser.find_elements_by_class_name("col-md-12")
         #a = browser.find_element_by_link_text("Log in here")
         #a = browser.find_elements_by_xpath("//div")
-        print(a);
+        print(a)
+        self.assertIn('Log In', browser.title)
 if __name__ == '__main__': 
     unittest.main() 
